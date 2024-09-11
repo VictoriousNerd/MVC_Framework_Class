@@ -1,0 +1,41 @@
+﻿
+@{
+    Layout = null;
+    string name = "Victor";
+    var numbers = new List<int>();
+    for (int i = 1; i <= 10; i++)
+    {
+        numbers.Add(i);
+    }
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <h1>Batman is great!</h1>
+        <p>Hello World!!!!! <strong>@name</strong></p>
+        <p>
+            @DateTime.Now
+        </p>
+        @for (int i = 0; i < numbers.Count(); i++)
+        {
+            if (numbers[i] % 2 == 0)
+            {
+                <h1>@numbers[i]</h1>
+            }
+            else
+            {
+                @numbers[i]<br />
+            }
+        }
+
+    </div>
+</body>
+</html>
+        

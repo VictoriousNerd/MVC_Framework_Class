@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34902.65
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CURDOppMVC", "CURDOppMVC\CURDOppMVC.csproj", "{9A0E204D-7B1F-4281-BC98-7FDD7EE94CDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9A0E204D-7B1F-4281-BC98-7FDD7EE94CDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A0E204D-7B1F-4281-BC98-7FDD7EE94CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A0E204D-7B1F-4281-BC98-7FDD7EE94CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A0E204D-7B1F-4281-BC98-7FDD7EE94CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {74C48113-6E93-48D3-9747-51BE3ED9FF80}
+	EndGlobalSection
+EndGlobal

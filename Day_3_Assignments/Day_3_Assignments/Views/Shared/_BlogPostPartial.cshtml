@@ -1,0 +1,9 @@
+﻿@model Day_3_Assignments.Models.BlogPost
+
+<div class="blog-post">
+    <hr />
+    <h2>@Model.Title</h2>
+    <p>By @Model.Author | Posted on @Model.DatePosted.ToShortDateString()</p>
+    <p>@Html.Raw(Model.Content.Substring(0, Math.Min(Model.Content.Length, 200)))...</p>
+    <p>@Html.ActionLink("Read more", "Details", new { id = Model.Id })</p>
+</div>

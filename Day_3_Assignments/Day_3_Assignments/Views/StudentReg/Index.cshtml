@@ -1,0 +1,46 @@
+﻿@model Day_3_Assignments.Models.StudentReg
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_StudentReg.cshtml";
+}
+
+@using (Html.BeginForm("Index", "StudentReg", FormMethod.Post))
+{
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+    <div class="form-group mt-2">
+        @Html.LabelFor(m => m.RollNumber)
+        @Html.TextBoxFor(m => m.RollNumber, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.RollNumber, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group mt-2">
+        @Html.LabelFor(m => m.FirstName)
+        @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.FirstName, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group mt-2">
+        @Html.LabelFor(m => m.LastName)
+        @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.LastName, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group mt-2">
+        @Html.LabelFor(m => m.Address)
+        @Html.TextBoxFor(m => m.Address, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Address, "", new { @class = "text-danger" })
+    </div>
+
+    <div class="form-group mt-2">
+        @Html.LabelFor(m => m.Email)
+        @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.Email, "", new { @class = "text-danger" })
+    </div>
+
+    <div>
+        <button type="submit" class="btn btn-primary mt-4">Register</button>
+    </div>
+}
+

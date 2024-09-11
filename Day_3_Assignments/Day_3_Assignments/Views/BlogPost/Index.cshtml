@@ -1,0 +1,15 @@
+﻿@model List<Day_3_Assignments.Models.BlogPost>
+
+@{
+    ViewBag.Title = "Blog Posts";
+    Layout = "~/Views/Shared/_StudentReg.cshtml";
+}
+
+<h1 class="mb-3">Blog Posts</h1>
+
+<div id="blog-posts">
+    @foreach (var post in Model)
+    {
+        @Html.Partial("_BlogPostPartial", post)
+    }
+</div>

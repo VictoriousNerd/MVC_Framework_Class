@@ -1,0 +1,75 @@
+﻿@model CURDOppMVC.Models.Employee
+@{
+    ViewBag.Title = "EditEmp";
+}
+
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Scripts/jquery.validate.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<h2>Edit | @Html.ActionLink("Employee List", "Index")</h2>
+<h3>
+    @ViewBag.Msg
+</h3>
+@using (Html.BeginForm("EditEmp", "Employee", FormMethod.Post))
+{
+    @Html.HiddenFor(e=>e.Id)
+    <table>
+        <tr>
+            <td>
+                @Html.DisplayNameFor(e => e.EmpNo)
+            </td>
+            <td>
+                @Html.TextBoxFor(e => e.EmpNo)
+            </td>
+            <td>
+                @Html.ValidationMessageFor(e => e.EmpNo)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.DisplayNameFor(e => e.FirstName)
+            </td>
+            <td>
+                @Html.TextBoxFor(e => e.FirstName)
+            </td>
+            <td>
+                @Html.ValidationMessageFor(e => e.FirstName)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.DisplayNameFor(e => e.LastName)
+            </td>
+            <td>
+                @Html.TextBoxFor(e => e.LastName)
+            </td>
+            <td>
+                @Html.ValidationMessageFor(e => e.LastName)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.DisplayNameFor(e => e.Email)
+            </td>
+            <td>
+                @Html.TextBoxFor(e => e.Email)
+            </td>
+            <td>
+                @Html.ValidationMessageFor(e => e.Email)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                @Html.DisplayNameFor(e => e.MobileNo)
+            </td>
+            <td>
+                @Html.TextBoxFor(e => e.MobileNo)
+            </td>
+            <td>
+                @Html.ValidationMessageFor(e => e.MobileNo)
+            </td>
+        </tr>
+    </table>
+    <input type="submit" value="Update" class="btn btn-primary" />
+}
+

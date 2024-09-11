@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\victo\\source\\repos\\CURDOppMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E204D-7B1F-4281-BC98-7FDD7EE94CDF}|CURDOppMVC\\CURDOppMVC.csproj|c:\\users\\victo\\source\\repos\\curdoppmvc\\curdoppmvc\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{9A0E204D-7B1F-4281-BC98-7FDD7EE94CDF}|CURDOppMVC\\CURDOppMVC.csproj|solutionrelative:curdoppmvc\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E204D-7B1F-4281-BC98-7FDD7EE94CDF}|CURDOppMVC\\CURDOppMVC.csproj|C:\\Users\\victo\\source\\repos\\CURDOppMVC\\curdoppmvc\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0E204D-7B1F-4281-BC98-7FDD7EE94CDF}|CURDOppMVC\\CURDOppMVC.csproj|solutionrelative:curdoppmvc\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E204D-7B1F-4281-BC98-7FDD7EE94CDF}|CURDOppMVC\\CURDOppMVC.csproj|C:\\Users\\victo\\source\\repos\\CURDOppMVC\\curdoppmvc\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0E204D-7B1F-4281-BC98-7FDD7EE94CDF}|CURDOppMVC\\CURDOppMVC.csproj|solutionrelative:curdoppmvc\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E204D-7B1F-4281-BC98-7FDD7EE94CDF}|CURDOppMVC\\CURDOppMVC.csproj|C:\\Users\\victo\\source\\repos\\CURDOppMVC\\curdoppmvc\\models\\emprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A0E204D-7B1F-4281-BC98-7FDD7EE94CDF}|CURDOppMVC\\CURDOppMVC.csproj|solutionrelative:curdoppmvc\\models\\emprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E204D-7B1F-4281-BC98-7FDD7EE94CDF}|CURDOppMVC\\CURDOppMVC.csproj|C:\\Users\\victo\\source\\repos\\CURDOppMVC\\curdoppmvc\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A0E204D-7B1F-4281-BC98-7FDD7EE94CDF}|CURDOppMVC\\CURDOppMVC.csproj|solutionrelative:curdoppmvc\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A0E204D-7B1F-4281-BC98-7FDD7EE94CDF}|CURDOppMVC\\CURDOppMVC.csproj|C:\\Users\\victo\\source\\repos\\CURDOppMVC\\curdoppmvc\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A0E204D-7B1F-4281-BC98-7FDD7EE94CDF}|CURDOppMVC\\CURDOppMVC.csproj|solutionrelative:curdoppmvc\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\victo\\source\\repos\\CURDOppMVC\\CURDOppMVC\\Web.config",
+              "RelativeDocumentMoniker": "CURDOppMVC\\Web.config",
+              "ToolTip": "C:\\Users\\victo\\source\\repos\\CURDOppMVC\\CURDOppMVC\\Web.config",
+              "RelativeToolTip": "CURDOppMVC\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-08T01:46:25.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\victo\\source\\repos\\CURDOppMVC\\CURDOppMVC\\Views\\Employee\\Index.cshtml",
+              "RelativeDocumentMoniker": "CURDOppMVC\\Views\\Employee\\Index.cshtml",
+              "ToolTip": "C:\\Users\\victo\\source\\repos\\CURDOppMVC\\CURDOppMVC\\Views\\Employee\\Index.cshtml",
+              "RelativeToolTip": "CURDOppMVC\\Views\\Employee\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T01:06:19.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\victo\\source\\repos\\CURDOppMVC\\CURDOppMVC\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "CURDOppMVC\\Views\\Employee\\Create.cshtml",
+              "ToolTip": "C:\\Users\\victo\\source\\repos\\CURDOppMVC\\CURDOppMVC\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "CURDOppMVC\\Views\\Employee\\Create.cshtml",
+              "ViewState": "AQIAABQAAAAAAAAAAAAswEcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T01:06:17.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmpRepository.cs",
+              "DocumentMoniker": "C:\\Users\\victo\\source\\repos\\CURDOppMVC\\CURDOppMVC\\Models\\EmpRepository.cs",
+              "RelativeDocumentMoniker": "CURDOppMVC\\Models\\EmpRepository.cs",
+              "ToolTip": "C:\\Users\\victo\\source\\repos\\CURDOppMVC\\CURDOppMVC\\Models\\EmpRepository.cs",
+              "RelativeToolTip": "CURDOppMVC\\Models\\EmpRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAgwDYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T01:06:10.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\victo\\source\\repos\\CURDOppMVC\\CURDOppMVC\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "CURDOppMVC\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\victo\\source\\repos\\CURDOppMVC\\CURDOppMVC\\Models\\Employee.cs",
+              "RelativeToolTip": "CURDOppMVC\\Models\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T01:06:09.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\victo\\source\\repos\\CURDOppMVC\\CURDOppMVC\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "CURDOppMVC\\Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\victo\\source\\repos\\CURDOppMVC\\CURDOppMVC\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "CURDOppMVC\\Controllers\\EmployeeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T01:06:05.83Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

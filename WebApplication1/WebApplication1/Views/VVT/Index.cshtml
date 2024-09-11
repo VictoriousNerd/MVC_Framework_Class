@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div> 
+        <h1>This message comes from the view bag.</h1>
+        <p>
+            @ViewBag.Title
+        </p>
+        <h3>This message comes from view data.</h3>
+        <ul>
+            <li>@ViewData["StudentName"]</li>
+        </ul>
+        <h5>This message comes from temp data</h5>
+        <p><em>@TempData["Students"]</em></p>
+    </div>
+</body>
+</html>

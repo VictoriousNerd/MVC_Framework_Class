@@ -1,0 +1,34 @@
+﻿@model ContactDetailsWebApp.Models.ContactDetails
+@{
+    ViewBag.Title = "ViewContact";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="mt-5">View Contact Information</h2>
+
+@Html.HiddenFor(c => c.Id)
+
+<div class="form-group mt-5">
+    <h4>@Html.DisplayNameFor(c => c.FirstName)</h4>
+    <p>@Html.DisplayFor(c => c.FirstName) </p>
+</div>
+
+<div class="form-group mt-3">
+    <h4>@Html.DisplayNameFor(c => c.LastName)</h4>
+    <p>@Html.DisplayFor(c => c.LastName) </p>
+</div>
+
+<div class="form-group mt-3">
+    <h4>@Html.DisplayNameFor(c => c.EmailAddress)</h4>
+    <p>@Html.DisplayFor(c => c.EmailAddress) </p>
+</div>
+
+<div class="form-group mt-3">
+    <h4>@Html.DisplayNameFor(c => c.PhoneNumber)</h4>
+    <p>@Html.DisplayFor(c => c.PhoneNumber) </p>
+</div>
+
+<div class="form-group mt-3">
+    <h4>@Html.DisplayNameFor(c => c.Role)</h4>
+    <p>@Html.DisplayFor(c => c.Role) </p>
+</div>

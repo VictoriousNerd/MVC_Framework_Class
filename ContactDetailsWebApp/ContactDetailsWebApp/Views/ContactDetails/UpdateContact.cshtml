@@ -1,0 +1,47 @@
+﻿@model ContactDetailsWebApp.Models.ContactDetails
+@{
+    ViewBag.Title = "UpdateContact";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="mt-5">Update Contact Information</h2>
+
+<h3>
+    @ViewBag.Msg
+</h3>
+
+@using (Html.BeginForm("UpdateContact", "ContactDetails", FormMethod.Post))
+{
+    @Html.HiddenFor(c => c.Id)
+    <div class="form-group mt-3">
+        @Html.DisplayNameFor(c => c.FirstName)
+        @Html.TextBoxFor(c => c.FirstName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(c => c.FirstName, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group mt-3">
+        @Html.DisplayNameFor(c => c.LastName)
+        @Html.TextBoxFor(c => c.LastName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(c => c.LastName, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group mt-3">
+        @Html.DisplayNameFor(c => c.EmailAddress)
+        @Html.TextBoxFor(c => c.EmailAddress, new { @class = "form-control" })
+        @Html.ValidationMessageFor(c => c.EmailAddress, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group mt-3">
+        @Html.DisplayNameFor(c => c.PhoneNumber)
+        @Html.TextBoxFor(c => c.PhoneNumber, new { @class = "form-control" })
+        @Html.ValidationMessageFor(c => c.PhoneNumber, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group mt-3">
+        @Html.DisplayNameFor(c => c.Role)
+        @Html.TextBoxFor(c => c.Role, new { @class = "form-control" })
+        @Html.ValidationMessageFor(c => c.Role, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group mt-3">
+        @Html.DisplayNameFor(c => c.Password)
+        @Html.TextBoxFor(c => c.Password, new { @class = "form-control" })
+        @Html.ValidationMessageFor(c => c.Password, "", new { @class = "text-danger" })
+    </div>
+    <input type="submit" value="Submit" class="btn btn-primary mt-3" />
+}

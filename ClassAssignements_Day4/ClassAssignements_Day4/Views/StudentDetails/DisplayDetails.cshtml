@@ -1,0 +1,31 @@
+﻿@model ClassAssignements_Day4.Models.StudentDetails
+@{
+    ViewBag.Title = "DisplayDetails";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>DisplayDetails</h2>
+
+<div>
+    <strong>Name:</strong> <span id="studentName">@Model.Name</span>
+</div>
+<div>
+    <strong>Email:</strong> <span id="studentEmail">@Model.Email</span>
+</div>
+<div>
+    <strong>Address:</strong> <span id="studentAddress">@Model.Address</span>
+</div>
+
+@section scripts {
+
+    <script>
+        $(function () {
+            // Retrieve student details from server and display
+            $.get('@Url.Action("Save", "StudentDetails")', function (data) {
+                $('#studentName').text(data.Name);
+                $('#studentEmail').text(data.Email);
+                $('#studentAddress').text(data.Address);
+            });
+        });
+    </script>
+}

@@ -1,0 +1,57 @@
+﻿@model IEnumerable<ClassAssignements_Day4.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Product Details</h2>
+
+<table id="productTable" class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Category</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Name</td>
+                <td>@product.Price</td>
+                <td>@product.Category</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            url: '@Url.Action("GetProduct", "Product")',
+            type: 'GET',
+            dataType: 'json',
+            success: function (data) {
+                // Clear existing table rows
+                $('#productTable tbody').empty();
+
+                // Append new rows based on received data
+                $.each(data, function (index, product) {
+                    var row = '<tr>' +
+                        '<td>' + product.Id + '</td>' +
+                        '<td>' + product.Name + '</td>' +
+                        '<td>' + product.Price + '</td>' +
+                        '<td>' + product.Category + '</td>' +
+                        '</tr>';
+                    $('#productTable tbody').append(row);
+                });
+            },
+            error: function () {
+                alert('Error loading products');
+            }
+        });
+    });
+</script>

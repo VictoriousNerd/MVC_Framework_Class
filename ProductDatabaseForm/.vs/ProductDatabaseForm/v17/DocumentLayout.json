@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\victo\\source\\repos\\ProductDatabaseForm\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC4420F-7C2A-4100-9E1D-4D73B6036DA9}|ProductDatabaseForm\\ProductDatabaseForm.csproj|c:\\users\\victo\\source\\repos\\productdatabaseform\\productdatabaseform\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC4420F-7C2A-4100-9E1D-4D73B6036DA9}|ProductDatabaseForm\\ProductDatabaseForm.csproj|solutionrelative:productdatabaseform\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC4420F-7C2A-4100-9E1D-4D73B6036DA9}|ProductDatabaseForm\\ProductDatabaseForm.csproj|C:\\Users\\victo\\source\\repos\\ProductDatabaseForm\\productdatabaseform\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6AC4420F-7C2A-4100-9E1D-4D73B6036DA9}|ProductDatabaseForm\\ProductDatabaseForm.csproj|solutionrelative:productdatabaseform\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC4420F-7C2A-4100-9E1D-4D73B6036DA9}|ProductDatabaseForm\\ProductDatabaseForm.csproj|C:\\Users\\victo\\source\\repos\\ProductDatabaseForm\\productdatabaseform\\views\\product\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6AC4420F-7C2A-4100-9E1D-4D73B6036DA9}|ProductDatabaseForm\\ProductDatabaseForm.csproj|solutionrelative:productdatabaseform\\views\\product\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC4420F-7C2A-4100-9E1D-4D73B6036DA9}|ProductDatabaseForm\\ProductDatabaseForm.csproj|C:\\Users\\victo\\source\\repos\\ProductDatabaseForm\\productdatabaseform\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6AC4420F-7C2A-4100-9E1D-4D73B6036DA9}|ProductDatabaseForm\\ProductDatabaseForm.csproj|solutionrelative:productdatabaseform\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC4420F-7C2A-4100-9E1D-4D73B6036DA9}|ProductDatabaseForm\\ProductDatabaseForm.csproj|C:\\Users\\victo\\source\\repos\\ProductDatabaseForm\\productdatabaseform\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{6AC4420F-7C2A-4100-9E1D-4D73B6036DA9}|ProductDatabaseForm\\ProductDatabaseForm.csproj|solutionrelative:productdatabaseform\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC4420F-7C2A-4100-9E1D-4D73B6036DA9}|ProductDatabaseForm\\ProductDatabaseForm.csproj|C:\\Users\\victo\\source\\repos\\ProductDatabaseForm\\productdatabaseform\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC4420F-7C2A-4100-9E1D-4D73B6036DA9}|ProductDatabaseForm\\ProductDatabaseForm.csproj|solutionrelative:productdatabaseform\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC4420F-7C2A-4100-9E1D-4D73B6036DA9}|ProductDatabaseForm\\ProductDatabaseForm.csproj|C:\\Users\\victo\\source\\repos\\ProductDatabaseForm\\productdatabaseform\\models\\prodrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6AC4420F-7C2A-4100-9E1D-4D73B6036DA9}|ProductDatabaseForm\\ProductDatabaseForm.csproj|solutionrelative:productdatabaseform\\models\\prodrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6AC4420F-7C2A-4100-9E1D-4D73B6036DA9}|ProductDatabaseForm\\ProductDatabaseForm.csproj|C:\\Users\\victo\\source\\repos\\ProductDatabaseForm\\productdatabaseform\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6AC4420F-7C2A-4100-9E1D-4D73B6036DA9}|ProductDatabaseForm\\ProductDatabaseForm.csproj|solutionrelative:productdatabaseform\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\victo\\source\\repos\\ProductDatabaseForm\\ProductDatabaseForm\\Web.config",
+              "RelativeDocumentMoniker": "ProductDatabaseForm\\Web.config",
+              "ToolTip": "C:\\Users\\victo\\source\\repos\\ProductDatabaseForm\\ProductDatabaseForm\\Web.config",
+              "RelativeToolTip": "ProductDatabaseForm\\Web.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-07-12T13:17:38.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "View.cshtml",
+              "DocumentMoniker": "C:\\Users\\victo\\source\\repos\\ProductDatabaseForm\\ProductDatabaseForm\\Views\\Product\\View.cshtml",
+              "RelativeDocumentMoniker": "ProductDatabaseForm\\Views\\Product\\View.cshtml",
+              "ToolTip": "C:\\Users\\victo\\source\\repos\\ProductDatabaseForm\\ProductDatabaseForm\\Views\\Product\\View.cshtml",
+              "RelativeToolTip": "ProductDatabaseForm\\Views\\Product\\View.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-09T16:15:07.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\victo\\source\\repos\\ProductDatabaseForm\\ProductDatabaseForm\\Views\\Product\\Edit.cshtml",
+              "RelativeDocumentMoniker": "ProductDatabaseForm\\Views\\Product\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\victo\\source\\repos\\ProductDatabaseForm\\ProductDatabaseForm\\Views\\Product\\Edit.cshtml",
+              "RelativeToolTip": "ProductDatabaseForm\\Views\\Product\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-09T03:22:11.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\victo\\source\\repos\\ProductDatabaseForm\\ProductDatabaseForm\\Views\\Product\\Index.cshtml",
+              "RelativeDocumentMoniker": "ProductDatabaseForm\\Views\\Product\\Index.cshtml",
+              "ToolTip": "C:\\Users\\victo\\source\\repos\\ProductDatabaseForm\\ProductDatabaseForm\\Views\\Product\\Index.cshtml",
+              "RelativeToolTip": "ProductDatabaseForm\\Views\\Product\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T03:13:54.053Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\victo\\source\\repos\\ProductDatabaseForm\\ProductDatabaseForm\\Views\\Product\\Create.cshtml",
+              "RelativeDocumentMoniker": "ProductDatabaseForm\\Views\\Product\\Create.cshtml",
+              "ToolTip": "C:\\Users\\victo\\source\\repos\\ProductDatabaseForm\\ProductDatabaseForm\\Views\\Product\\Create.cshtml",
+              "RelativeToolTip": "ProductDatabaseForm\\Views\\Product\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-08T03:12:53.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\victo\\source\\repos\\ProductDatabaseForm\\ProductDatabaseForm\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ProductDatabaseForm\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\victo\\source\\repos\\ProductDatabaseForm\\ProductDatabaseForm\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ProductDatabaseForm\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAAwEEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T03:12:21.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProdRepository.cs",
+              "DocumentMoniker": "C:\\Users\\victo\\source\\repos\\ProductDatabaseForm\\ProductDatabaseForm\\Models\\ProdRepository.cs",
+              "RelativeDocumentMoniker": "ProductDatabaseForm\\Models\\ProdRepository.cs",
+              "ToolTip": "C:\\Users\\victo\\source\\repos\\ProductDatabaseForm\\ProductDatabaseForm\\Models\\ProdRepository.cs",
+              "RelativeToolTip": "ProductDatabaseForm\\Models\\ProdRepository.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAgwGIAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T03:11:41.969Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\victo\\source\\repos\\ProductDatabaseForm\\ProductDatabaseForm\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ProductDatabaseForm\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\victo\\source\\repos\\ProductDatabaseForm\\ProductDatabaseForm\\Models\\Product.cs*",
+              "RelativeToolTip": "ProductDatabaseForm\\Models\\Product.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T03:10:49.935Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

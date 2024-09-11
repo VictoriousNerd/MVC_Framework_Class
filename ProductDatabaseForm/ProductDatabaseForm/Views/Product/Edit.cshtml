@@ -1,0 +1,36 @@
+﻿@model ProductDatabaseForm.Models.Product
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2 class="mt-5">Edit&ensp;|&ensp;@Html.ActionLink("Product List", "Index")</h2>
+<h3>
+    @ViewBag.Msg
+</h3>
+
+@using (Html.BeginForm("Edit", "Product", FormMethod.Post))
+{
+    @Html.HiddenFor(p => p.Id)
+    <div class="form-group mt-5">
+        @Html.DisplayNameFor(p => p.ProductNo)
+        @Html.TextBoxFor(p => p.ProductNo, new { @class = "form-control" })
+        @Html.ValidationMessageFor(p => p.ProductNo, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group mt-3">
+        @Html.DisplayNameFor(p => p.Name)
+        @Html.TextBoxFor(p => p.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(p => p.Name, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group mt-3">
+        @Html.DisplayNameFor(p => p.Category)
+        @Html.TextBoxFor(p => p.Category, new { @class = "form-control" })
+        @Html.ValidationMessageFor(p => p.Category, "", new { @class = "text-danger" })
+    </div>
+    <div class="form-group mt-3">
+        @Html.DisplayNameFor(p => p.Price)
+        @Html.TextBoxFor(p => p.Price, new { @class = "form-control" })
+        @Html.ValidationMessageFor(p => p.Price, "", new { @class = "text-danger" })
+    </div>
+    <input type="submit" value="Submit" class="btn btn-primary mt-3" />
+}

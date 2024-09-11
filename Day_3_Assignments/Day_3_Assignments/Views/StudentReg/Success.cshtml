@@ -1,0 +1,18 @@
+﻿@model Day_3_Assignments.Models.StudentReg
+
+@{
+    ViewBag.Title = "Success";
+    Layout = "~/Views/Shared/_StudentReg.cshtml";
+}
+
+<h2>Registration Successful</h2>
+
+<div>
+    <p><strong>Roll Number:</strong> @Html.DisplayFor(m => m.RollNumber)</p>
+    <p><strong>First Name:</strong> @Html.DisplayFor(m => m.FirstName)</p>
+    <p><strong>Last Name:</strong> @Html.DisplayFor(m => m.LastName)</p>
+    <p><strong>Address:</strong> @Html.DisplayFor(m => m.Address)</p>
+    <p><strong>Email:</strong> @Html.DisplayFor(m => m.Email)</p>
+</div>
+
+

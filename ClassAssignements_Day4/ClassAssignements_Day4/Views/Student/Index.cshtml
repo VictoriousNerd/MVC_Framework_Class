@@ -1,0 +1,26 @@
+﻿@model ClassAssignements_Day4.Models.Student
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Student Name</h2>
+
+<div id="studentName"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $.ajax({
+            type: "GET",
+            url: '@Url.Action("GetStudent", "Student")',
+            data: { id: 1 }, // Example: Request student with ID 1
+            success: function (data) {
+                $('#studentName').text('Student Name: ' + data.Name);
+            },
+            error: function () {
+                $('#studentName').text('Error retrieving student.');
+            }
+        });
+    });
+</script>

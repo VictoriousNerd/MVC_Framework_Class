@@ -1,0 +1,34 @@
+USE [ProductDatabase]
+GO
+/****** Object:  StoredProcedure [dbo].[updateProduct]    Script Date: 7/15/2024 2:27:12 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+-- =============================================
+-- Author:		<Author,,Name>
+-- Create date: <Create Date,,>
+-- Description:	<Description,,>
+-- =============================================
+ALTER PROCEDURE [dbo].[updateProduct] 
+    @Id int,  -- Assuming Id is the primary key of ProductDatabase table
+    @ProductNo varchar(50) = null,
+    @Name varchar(50) = null,
+    @Category varchar(50) = null,
+    @Price decimal(18, 0) = null
+
+AS
+BEGIN
+	-- SET NOCOUNT ON added to prevent extra result sets from
+	-- interfering with SELECT statements.
+	SET NOCOUNT ON;
+
+    -- Insert statements for procedure here
+	UPDATE [dbo].[ProductDatabase]
+	 SET [ProductNo] = ISNULL(@ProductNo, [ProductNo]),
+        [Name] = ISNULL(@Name, [Name]),
+        [Category] = ISNULL(@Category, [Category]),
+        [Price] = ISNULL(@Price, [Price])
+    WHERE 
+        Id = @Id;
+END
